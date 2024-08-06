@@ -22,14 +22,14 @@
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 259,
-		"height": 80,
+		"width": 1500,
+		"height": 2970,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 9467796,
+		"imageSpriteId": 908186,
 		"useCollisionPoly": true,
 		"tag": ""
 	}
