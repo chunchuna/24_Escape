@@ -1,0 +1,313 @@
+{
+	"name": "Input",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Input",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 629756751687740,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_space_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 845628530389380
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 632859305678041,
+							"parameters": {
+								"key": 90
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_z_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 252734429142291
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 723882072103395,
+							"parameters": {
+								"key": 74
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_j_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 307838407085021
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 268948888982099,
+							"parameters": {
+								"key": 81
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_q_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 809166306828934
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 477347616827781,
+							"parameters": {
+								"key": 69
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_e_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 387602537427995
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 489949082708804,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_up_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 507207590677918
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 305272062673386,
+							"parameters": {
+								"key": 40
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_down_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 356745208774325
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 569802130755932,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_w_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 203804127526812
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 398617982452951,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_s_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 585875625616457
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 141101515782384,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_a_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 880472462626135
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 439515867344057,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_d_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 788126887453615
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 860788894640943,
+							"parameters": {
+								"key": 104
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_8_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 686085049234108
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 534531263402294,
+							"parameters": {
+								"key": 98
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_2_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 520249575819663
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 214221853104363
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_anykey_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 235007070640000
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 440008022774664,
+							"parameters": {
+								"key": 48
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "const event = new C3.Event(\"input_number0_keydown\", false)\nconst handler =runtime.objects.EventHandler.getFirstInstance();\nhandler.dispatchEvent(event)\n"
+						}
+					],
+					"sid": 518817577571655
+				}
+			],
+			"sid": 540442917613657
+		}
+	],
+	"sid": 306619366046238
+}

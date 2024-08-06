@@ -1,0 +1,412 @@
+{
+	"name": "DilogueSystemUI",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "WindowFrame",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "tile",
+						"fill": "tile",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "exact"
+					},
+					"uid": 31,
+					"sid": 177894436831863,
+					"tags": "",
+					"instanceVariables": {
+						"ID": ""
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 177894436831863,
+						"expanded": true
+					},
+					"world": {
+						"x": -1,
+						"y": -128,
+						"width": 480,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!?/:\"'-.,ø;#+()%~=",
+						"spacing-data": "[[10, \"il,.!:;' \"],[11, \"j\"], [14, \"abcdefghknopqrstuvxyz\"]]",
+						"scale": 1,
+						"character-spacing": 0,
+						"line-height": 2,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 32,
+					"sid": 184643809998539,
+					"tags": "",
+					"instanceVariables": {
+						"ID": "",
+						"choiceFork": ""
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 184643809998539,
+						"expanded": true
+					},
+					"world": {
+						"x": 127,
+						"y": -112,
+						"width": 336,
+						"height": 96,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PortraitSprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"sid": 259546579309958,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 259546579309958,
+						"expanded": true
+					},
+					"world": {
+						"x": 15,
+						"y": -112,
+						"width": 96,
+						"height": 96,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ContinueIndicator",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 34,
+					"sid": 469462277355520,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 469462277355520,
+						"expanded": true
+					},
+					"world": {
+						"x": 32,
+						"y": -160,
+						"width": 18,
+						"height": 10,
+						"originX": 0.5,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DownArrow",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 35,
+					"sid": 724742181533783,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 724742181533783,
+						"expanded": true
+					},
+					"world": {
+						"x": 64,
+						"y": -160,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UpArrow",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 36,
+					"sid": 612143954902572,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 612143954902572,
+						"expanded": true
+					},
+					"world": {
+						"x": 64,
+						"y": -192,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChoiceSelector",
+					"properties": {
+						"left-margin": 8,
+						"right-margin": 8,
+						"top-margin": 8,
+						"bottom-margin": 8,
+						"edges": "tile",
+						"fill": "tile",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "exact"
+					},
+					"uid": 37,
+					"sid": 932807951980444,
+					"tags": "",
+					"instanceVariables": {
+						"callback": "",
+						"params": ""
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 932807951980444,
+						"expanded": true
+					},
+					"world": {
+						"x": 96,
+						"y": -160,
+						"width": 64,
+						"height": 16,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont2",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 18,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "character",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 108,
+					"sid": 466372898886863,
+					"tags": "",
+					"instanceVariables": {
+						"ID": 0,
+						"choiceFork": ""
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 466372898886863,
+						"expanded": true
+					},
+					"world": {
+						"x": 128,
+						"y": -117,
+						"width": 341,
+						"height": 106,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 369323149893444,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 0,
+			"parallaxY": 0,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"scene-graphs-folder-root": {
+		"items": [
+			{
+				"sid": 177894436831863,
+				"expanded": true
+			},
+			{
+				"sid": 184643809998539,
+				"expanded": true
+			},
+			{
+				"sid": 259546579309958,
+				"expanded": true
+			},
+			{
+				"sid": 469462277355520,
+				"expanded": true
+			},
+			{
+				"sid": 724742181533783,
+				"expanded": true
+			},
+			{
+				"sid": 612143954902572,
+				"expanded": true
+			},
+			{
+				"sid": 932807951980444,
+				"expanded": true
+			},
+			{
+				"sid": 466372898886863,
+				"expanded": true
+			}
+		],
+		"subfolders": []
+	},
+	"sid": 849828816587759,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": null
+}

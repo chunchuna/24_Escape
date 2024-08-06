@@ -1,0 +1,137 @@
+{
+	"name": "IntractBehaviorZone",
+	"plugin-id": "Sprite",
+	"sid": 651976243135220,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "isTouceOnce",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 607895011211738
+		},
+		{
+			"name": "TouceTimes",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 945672834324971
+		},
+		{
+			"name": "Type",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 347400305050005
+		},
+		{
+			"name": "DialogueKeyName",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 983634540287623
+		},
+		{
+			"name": "functionName",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 422418764488093
+		},
+		{
+			"name": "isConnectNPC",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 842048574633830
+		},
+		{
+			"name": "NPCUid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 395404188040860
+		},
+		{
+			"name": "isTouching",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 831045451951843
+		},
+		{
+			"name": "DistancefromPlayer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 120295578017504
+		},
+		{
+			"name": "parameters1",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 912629875588196
+		},
+		{
+			"name": "parameters2",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 820912430236618
+		},
+		{
+			"name": "parameters3",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 893427488336170
+		},
+		{
+			"name": "parameters4",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 645993610781503
+		},
+		{
+			"name": "parameters5",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 395140759811213
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8956145,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 395101824626752,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

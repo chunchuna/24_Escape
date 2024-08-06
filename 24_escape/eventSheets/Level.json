@@ -1,0 +1,1405 @@
+{
+	"name": "Level",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "DialogueEvents"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "GlobalVar"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "Input"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "prisoner",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "BaseMove",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 633397819777332,
+									"parameters": {
+										"tag": "\"moveleft\""
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 680629554858342,
+									"parameters": {
+										"first-value": "prisonerMain.8Direction.VectorX",
+										"comparison": 2,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "prisoner3dobject",
+									"sid": 554086602061688,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "180",
+										"rotation-order": "zxy"
+									}
+								},
+								{
+									"id": "set-rotation",
+									"objectClass": "guardbutfake",
+									"sid": 631070285829388,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "180",
+										"rotation-order": "zxy"
+									}
+								}
+							],
+							"sid": 491891685501439
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 288421283121623,
+									"parameters": {
+										"tag": "\"moveright\""
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 606244567668267,
+									"parameters": {
+										"first-value": "prisonerMain.8Direction.VectorX",
+										"comparison": 4,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "prisoner3dobject",
+									"sid": 661941720237873,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "0",
+										"rotation-order": "zxy"
+									}
+								},
+								{
+									"id": "set-rotation",
+									"objectClass": "guardbutfake",
+									"sid": 984804708637070,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "0",
+										"rotation-order": "zxy"
+									}
+								}
+							],
+							"sid": 913709481926929
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 154098257207891,
+									"parameters": {
+										"tag": "\"movedown\""
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 915757068088939,
+									"parameters": {
+										"first-value": "prisonerMain.8Direction.VectorY",
+										"comparison": 4,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "prisoner3dobject",
+									"sid": 288985765407161,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "90",
+										"rotation-order": "zxy"
+									}
+								},
+								{
+									"id": "set-rotation",
+									"objectClass": "guardbutfake",
+									"sid": 659267588401229,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "90",
+										"rotation-order": "zxy"
+									}
+								}
+							],
+							"sid": 196340537069686
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 130167079851173,
+									"parameters": {
+										"tag": "\"moveup\""
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 376163876437703,
+									"parameters": {
+										"first-value": "prisonerMain.8Direction.VectorY",
+										"comparison": 2,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "prisoner3dobject",
+									"sid": 474934987246769,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "270",
+										"rotation-order": "zxy"
+									}
+								},
+								{
+									"id": "set-rotation",
+									"objectClass": "guardbutfake",
+									"sid": 581406899019503,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "270",
+										"rotation-order": "zxy"
+									}
+								}
+							],
+							"sid": 352468165332662
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 263573568147170,
+									"parameters": {
+										"key": 65
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "signal",
+									"objectClass": "System",
+									"sid": 447749646181133,
+									"parameters": {
+										"tag": "\"moveleft\""
+									}
+								}
+							],
+							"sid": 845694295995962
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 453910056216881,
+									"parameters": {
+										"key": 68
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "signal",
+									"objectClass": "System",
+									"sid": 833338904985362,
+									"parameters": {
+										"tag": "\"moveright\""
+									}
+								}
+							],
+							"sid": 542402797041951
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 728640595432217,
+									"parameters": {
+										"key": 87
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "signal",
+									"objectClass": "System",
+									"sid": 837810862922687,
+									"parameters": {
+										"tag": "\"moveup\""
+									}
+								}
+							],
+							"sid": 613062437248695
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 918360379919465,
+									"parameters": {
+										"key": 83
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "signal",
+									"objectClass": "System",
+									"sid": 870228485751985,
+									"parameters": {
+										"tag": "\"movedown\""
+									}
+								}
+							],
+							"sid": 524255169555130
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 765672147411616,
+									"parameters": {
+										"tag": "\"moveleft\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "prisonerMain",
+									"sid": 705994909948285,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "left"
+									}
+								}
+							],
+							"sid": 436610322489293
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 681040357110455,
+									"parameters": {
+										"tag": "\"moveright\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "prisonerMain",
+									"sid": 860600001233091,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "right"
+									}
+								}
+							],
+							"sid": 693765549846517
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 736819346786959,
+									"parameters": {
+										"tag": "\"movedown\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "prisonerMain",
+									"sid": 711003974976947,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "down"
+									}
+								}
+							],
+							"sid": 528363111182309
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-signal",
+									"objectClass": "System",
+									"sid": 260840981692639,
+									"parameters": {
+										"tag": "\"moveup\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "prisonerMain",
+									"sid": 705806659439163,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
+								}
+							],
+							"sid": 152544911678782
+						}
+					],
+					"sid": 217978786704537
+				},
+				{
+					"eventType": "group",
+					"disabled": true,
+					"title": "MoveFunc",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "variable",
+							"name": "InputLeft",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 164003161103940
+						},
+						{
+							"eventType": "comment",
+							"text": "Whether or not the right button is being pressed."
+						},
+						{
+							"eventType": "variable",
+							"name": "InputRight",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 729913516438380
+						},
+						{
+							"eventType": "comment",
+							"text": "Whether or not the up button is being pressed."
+						},
+						{
+							"eventType": "variable",
+							"name": "InputUp",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 132557872513800
+						},
+						{
+							"eventType": "comment",
+							"text": "Whether or not the down button is being pressed."
+						},
+						{
+							"eventType": "variable",
+							"name": "InputDown",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 622164794645792
+						},
+						{
+							"eventType": "comment",
+							"text": "The current horizontal direction."
+						},
+						{
+							"eventType": "variable",
+							"name": "HorizontalAxis",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 458066780222444
+						},
+						{
+							"eventType": "comment",
+							"text": "The current vertical direction."
+						},
+						{
+							"eventType": "variable",
+							"name": "VerticalAxis",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 570950041269819
+						},
+						{
+							"eventType": "comment",
+							"text": "The angle where both axis are pointing towards."
+						},
+						{
+							"eventType": "variable",
+							"name": "AxisAngle",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"isStatic": false,
+							"isConstant": false,
+							"sid": 593660604784137
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 232400557000431,
+									"parameters": {
+										"key": 65
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 447133691301330,
+									"parameters": {
+										"variable": "InputLeft",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 831789679537787,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 343089702935698
+								},
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 492737555011328,
+									"parameters": {
+										"key": 65
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 738099857236434,
+									"parameters": {
+										"variable": "InputLeft",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 673876280053258,
+							"disabled": true
+						},
+						{
+							"eventType": "comment",
+							"text": "Update the input right variable depending on whether the player is pressing the equivalent button or not."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 609803062206225,
+									"parameters": {
+										"key": 68
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 734782911699225,
+									"parameters": {
+										"variable": "InputRight",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 448911252082276,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 969725508091870
+								},
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 215266307272020,
+									"parameters": {
+										"key": 68
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 385196553549071,
+									"parameters": {
+										"variable": "InputRight",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 555342630052623,
+							"disabled": true
+						},
+						{
+							"eventType": "comment",
+							"text": "Update the input up variable depending on whether the player is pressing the equivalent button or not."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 532371084461021,
+									"parameters": {
+										"key": 87
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 621221480119510,
+									"parameters": {
+										"variable": "InputUp",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 869414201668105,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 530572068105261
+								},
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 815806052915948,
+									"parameters": {
+										"key": 87
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 441824272091542,
+									"parameters": {
+										"variable": "InputUp",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 205563934614585,
+							"disabled": true
+						},
+						{
+							"eventType": "comment",
+							"text": "Update the input down variable depending on whether the player is pressing the equivalent button or not."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 266233362458875,
+									"parameters": {
+										"key": 83
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 340439842334360,
+									"parameters": {
+										"variable": "InputDown",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 643875164531886,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 903883385123725
+								},
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 858534482264344,
+									"parameters": {
+										"key": 83
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 156824011021146,
+									"parameters": {
+										"variable": "InputDown",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 174501560787087,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 784020055962288
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 913051730811873,
+									"parameters": {
+										"variable": "HorizontalAxis",
+										"value": "InputRight - InputLeft"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 263379928530332,
+									"parameters": {
+										"variable": "VerticalAxis",
+										"value": "InputDown - InputUp"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 830998101876678,
+									"parameters": {
+										"variable": "AxisAngle",
+										"value": "((angle(0, 0, HorizontalAxis, VerticalAxis) + 360) % 360) + 90"
+									}
+								},
+								{
+									"id": "set-vector-x",
+									"objectClass": "prisonerMain",
+									"sid": 956262595416812,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"vector-x": "0"
+									}
+								},
+								{
+									"id": "set-vector-y",
+									"objectClass": "prisonerMain",
+									"sid": 119998922541427,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"vector-y": "0"
+									}
+								}
+							],
+							"sid": 987975181932398,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 194107709770724,
+									"parameters": {
+										"value": "HorizontalAxis <> 0 | VerticalAxis <> 0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-x",
+									"objectClass": "prisonerMain",
+									"sid": 746812264260106,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"vector-x": "cos(CameraMain.CameraXRotation + AxisAngle) * Self.8Direction.MaxSpeed"
+									}
+								},
+								{
+									"id": "set-vector-y",
+									"objectClass": "prisonerMain",
+									"sid": 990539487823122,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"vector-y": "sin(CameraMain.CameraXRotation + AxisAngle) * Self.8Direction.MaxSpeed"
+									}
+								}
+							],
+							"sid": 792734039567528,
+							"disabled": true
+						}
+					],
+					"sid": 524289351600719
+				}
+			],
+			"sid": 851097463094865
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "camera",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 448701534001889
+						}
+					],
+					"actions": [
+						{
+							"id": "look-at-position",
+							"objectClass": "CameraMain",
+							"sid": 984754339149734,
+							"parameters": {
+								"cam-x": "prisonerMain.x",
+								"cam-y": "prisonerMain.Y+Camera_Y_Offest",
+								"cam-z": "Camera_Z",
+								"look-x": "prisonerMain.x",
+								"look-y": "prisonerMain.Y",
+								"look-z": "50",
+								"up-x": "0",
+								"up-y": "1",
+								"up-z": "0"
+							}
+						}
+					],
+					"sid": 941507599836219,
+					"disabled": true
+				}
+			],
+			"sid": 307256450741124
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "dialogue",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 998454562800809,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [],
+					"sid": 540374724304428,
+					"disabled": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 760096954726744,
+									"parameters": {
+										"variable": "Dialogue_IsRunning"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 143023657590567,
+							"disabled": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 837209079323608,
+											"parameters": {
+												"variable": "Dialogue_WaitForInput",
+												"comparison": 0,
+												"value": "1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Dialogue_Continue",
+											"sid": 541954916946884
+										}
+									],
+									"sid": 583006249924758,
+									"disabled": true
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "else",
+											"objectClass": "System",
+											"sid": 688604755064613
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 181524278316634,
+											"parameters": {
+												"variable": "Dialogue_WaitForChoice",
+												"comparison": 0,
+												"value": "1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Dialogue_ChoiceSelect",
+											"sid": 611264256466390,
+											"parameters": [
+												"-1"
+											]
+										}
+									],
+									"sid": 828475861234104,
+									"disabled": true
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "else",
+											"objectClass": "System",
+											"sid": 479852582269214
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Dialogue_SkipSequence",
+											"sid": 739371659758450
+										}
+									],
+									"sid": 645810987680738,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 819971568203110
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Dialogue_StartDialogue",
+									"sid": 765527028252004,
+									"parameters": [
+										"\"test\""
+									]
+								}
+							],
+							"sid": 922256231660311,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 658258060881426
+						}
+					],
+					"actions": [
+						{
+							"id": "request-project-file",
+							"objectClass": "AJAX",
+							"sid": 159762406002851,
+							"parameters": {
+								"tag": "\"loadDialogues\"",
+								"file": "dialogues.json"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 474976000252479
+						},
+						{
+							"id": "load",
+							"objectClass": "DialogueDictionary",
+							"sid": 542482557530140,
+							"parameters": {
+								"json": "AJAX.LastData"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 333503575162605
+						}
+					],
+					"sid": 228635535906207
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 633897739491265,
+							"parameters": {
+								"variable": "Dialogue_WaitForChoice",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 757468387431005,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 975783189109898,
+									"parameters": {
+										"key": 38
+									}
+								},
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 375651550620569,
+									"parameters": {
+										"key": 87
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Dialogue_ChoiceUp",
+									"sid": 562732329727966
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 823828097342765,
+									"parameters": {
+										"audio-file": "updown",
+										"loop": "not-looping",
+										"volume": "-10",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 307812449103379,
+							"isOrBlock": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 662880421481399,
+									"parameters": {
+										"key": 40
+									}
+								},
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 555626814453825,
+									"parameters": {
+										"key": 83
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Dialogue_ChoiceDown",
+									"sid": 680305572176037
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 582925472844847,
+									"parameters": {
+										"audio-file": "updown",
+										"loop": "not-looping",
+										"volume": "-10",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 479110229469694,
+							"isOrBlock": true
+						}
+					]
+				}
+			],
+			"sid": 992729267475494
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "LevelInit",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 922612879808927
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 193426290183442,
+							"parameters": {
+								"variable": "GameType",
+								"value": "\"Level\""
+							}
+						}
+					],
+					"sid": 304743026694195
+				}
+			],
+			"sid": 495679077277884
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "npc",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 713134690374272
+						}
+					],
+					"actions": [
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 334991207607171,
+							"parameters": {
+								"key": "\"TalktoGuardTimes\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 325373208615757,
+							"parameters": {
+								"key": "\"GetGold\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 728055278929644,
+							"parameters": {
+								"key": "\"AngeringGuard\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 298834639475824,
+							"parameters": {
+								"key": "\"GetSecret\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 732952520234283,
+							"parameters": {
+								"key": "\"GetOutRoom\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 731540651833804,
+							"parameters": {
+								"key": "\"Police\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 856320532705875,
+							"parameters": {
+								"key": "\"GuardDie\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 796313616731292,
+							"parameters": {
+								"key": "\"OpenGate2\"",
+								"value": "0"
+							}
+						},
+						{
+							"id": "add-key",
+							"objectClass": "GameVariables",
+							"sid": 536786660069020,
+							"parameters": {
+								"key": "\"EndingIndex\"",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 662189319234487
+				}
+			],
+			"sid": 661535098226765
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "3dobject",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"functionName": "SetObjectRotation",
+					"functionDescription": "",
+					"functionCategory": "3d",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "uid",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 542514878698338
+						},
+						{
+							"name": "x",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 415034935908478
+						},
+						{
+							"name": "y",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 209448440666786
+						},
+						{
+							"name": "z",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 319715773035789
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [],
+					"sid": 678252062232713,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "pick-by-unique-id",
+									"objectClass": "f_3d",
+									"sid": 552140662022501,
+									"parameters": {
+										"unique-id": "uid"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "f_3d",
+									"sid": 333882519899751,
+									"parameters": {
+										"x": "x",
+										"y": "y",
+										"z": "z",
+										"rotation-order": "xyz"
+									}
+								}
+							],
+							"sid": 956822214017673
+						}
+					]
+				}
+			],
+			"sid": 921667178401188
+		}
+	],
+	"sid": 474519730387322
+}

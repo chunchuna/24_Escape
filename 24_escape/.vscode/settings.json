@@ -1,0 +1,22 @@
+{
+    "workbench.colorCustomizations": {
+        
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "string.quoted.single", // 单引号字符串
+                        "string.quoted.double", // 双引号字符串
+                        "string.quoted.triple", // 三引号字符串（某些语言）
+                        "string.quoted",        // 任何类型的引号字符串
+                        "string"                // 所有字符串
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000" // 指定为红色
+                    }
+                }
+            ]
+        }
+
+    }
+}

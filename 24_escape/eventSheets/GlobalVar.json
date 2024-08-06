@@ -1,0 +1,254 @@
+{
+	"name": "GlobalVar",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "GameType",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 885324489703794
+		},
+		{
+			"eventType": "variable",
+			"name": "BehaviorInstanceUid",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 468919528372046
+		},
+		{
+			"eventType": "comment",
+			"text": "Camera"
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Z",
+			"type": "number",
+			"initialValue": "710",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 260635675211383
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Y_Offest",
+			"type": "number",
+			"initialValue": "60",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 864258098306086
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_X_Offest",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 680494083855036
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Angel",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 592595993620951
+		},
+		{
+			"eventType": "comment",
+			"text": " Camera Default "
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Angel_De",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 302251362284087
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Z_De",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 629076057410093
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_Y_Offest_De",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 849188093291394
+		},
+		{
+			"eventType": "variable",
+			"name": "Camera_X_Offest_De",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 479830992059965
+		},
+		{
+			"eventType": "comment",
+			"text": "Dialogue"
+		},
+		{
+			"eventType": "variable",
+			"name": "temp",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 766594073188541
+		},
+		{
+			"eventType": "comment",
+			"text": "FunctionWindow"
+		},
+		{
+			"eventType": "variable",
+			"name": "Function_WindowID",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 292735318347469
+		},
+		{
+			"eventType": "variable",
+			"name": "Function_ID",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 108783951682612
+		},
+		{
+			"eventType": "variable",
+			"name": "Function_WindowEnable",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 439141653254145
+		},
+		{
+			"eventType": "variable",
+			"name": "Function_OPT_Count",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 924449356654329
+		},
+		{
+			"eventType": "comment",
+			"text": "Fade"
+		},
+		{
+			"eventType": "variable",
+			"name": "Fade_is_Fading",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 767466854190409
+		},
+		{
+			"eventType": "comment",
+			"text": "End"
+		},
+		{
+			"eventType": "variable",
+			"name": "End_TriggerEnd",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 989431363186494
+		},
+		{
+			"eventType": "variable",
+			"name": "End_Des_Text1",
+			"type": "string",
+			"initialValue": "You confronted the prison guard, who rushed in and subdued you with an electric baton! You were then sent to the solitary confinement cell",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 724292830909605
+		},
+		{
+			"eventType": "variable",
+			"name": "End_Des_Text2",
+			"type": "string",
+			"initialValue": "You secretly pried open the ventilation duct and were discovered by the prison guards! The prison guards rushed in, knocked you unconscious, and then you were sent to the infirmary..",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 833011331153416
+		},
+		{
+			"eventType": "variable",
+			"name": "End_Des_Text3",
+			"type": "string",
+			"initialValue": "Congratulations, you have successfully escaped from the underground passage and reached the outside of the prison. You are now free!",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 997083375450214
+		},
+		{
+			"eventType": "variable",
+			"name": "End_Des_Text4",
+			"type": "string",
+			"initialValue": "You successfully escaped from prison by posing as a prison guard and deceived the American soldiers. Congratulations!,",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 513373519540614
+		},
+		{
+			"eventType": "comment",
+			"text": "Save & Load"
+		},
+		{
+			"eventType": "variable",
+			"name": "Load_is_LoadingState",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 875222456206429
+		}
+	],
+	"sid": 801602018162794
+}

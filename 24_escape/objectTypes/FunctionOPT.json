@@ -1,0 +1,38 @@
+{
+	"name": "FunctionOPT",
+	"plugin-id": "Text",
+	"sid": 650766168693474,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 880459201324996
+		},
+		{
+			"name": "name",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 405210566847790
+		},
+		{
+			"name": "isSelected",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 947649383698358
+		},
+		{
+			"name": "isEnable",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 750516601569698
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,17 @@
+{
+	"name": "f_cube",
+	"plugin-id": "Shape3D",
+	"sid": 649834287379897,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 419998234926206
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"wall"
+	]
+}

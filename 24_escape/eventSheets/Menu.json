@@ -1,0 +1,46 @@
+{
+	"name": "Menu",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Input"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "Load"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "MenuInit",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 470357064670641
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 516796095928281,
+							"parameters": {
+								"variable": "GameType",
+								"value": "\"Menu\""
+							}
+						}
+					],
+					"sid": 716802244049340
+				}
+			],
+			"sid": 553295565089000
+		}
+	],
+	"sid": 906146033741382
+}

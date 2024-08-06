@@ -1,0 +1,24 @@
+{
+	"name": "SpriteFont2",
+	"plugin-id": "Text",
+	"sid": 936786343195438,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 541190469946981
+		},
+		{
+			"name": "choiceFork",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 990532108002929
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

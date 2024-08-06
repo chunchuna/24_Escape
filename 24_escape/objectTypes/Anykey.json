@@ -1,0 +1,15 @@
+{
+	"name": "Anykey",
+	"plugin-id": "Text",
+	"sid": 950878254337702,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "正弦运动",
+			"sid": 803708926514744
+		}
+	],
+	"effectTypes": []
+}

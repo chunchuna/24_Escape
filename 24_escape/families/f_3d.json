@@ -1,0 +1,18 @@
+{
+	"name": "f_3d",
+	"plugin-id": "Mikal_3DObject",
+	"sid": 890082024030358,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"bed",
+		"door",
+		"guard",
+		"board",
+		"toilet",
+		"prisoner3dobject",
+		"wash",
+		"guardbutfake"
+	]
+}

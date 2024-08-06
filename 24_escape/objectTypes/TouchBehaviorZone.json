@@ -1,0 +1,81 @@
+{
+	"name": "TouchBehaviorZone",
+	"plugin-id": "Sprite",
+	"sid": 815502659932554,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "isTouchOnce",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 492749829134038
+		},
+		{
+			"name": "Type",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 131945453938005
+		},
+		{
+			"name": "FunctionName",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 207805861678883
+		},
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 491333742383126
+		},
+		{
+			"name": "TouchTimes",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 291296568390824
+		},
+		{
+			"name": "isTestOverLapDoing",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 441248710841881
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2458547,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 442776385719715,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

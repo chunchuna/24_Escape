@@ -1,0 +1,22 @@
+{
+	"name": "f_cube2",
+	"plugin-id": "Mikal_3DObject",
+	"sid": 660975474572077,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 500427760272221
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"toilet",
+		"door",
+		"bed",
+		"wash",
+		"Tunnelentrance",
+		"guard"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "CameraMain",
+	"plugin-id": "Camera3D",
+	"sid": 359796071577067,
+	"singleglobal-inst": {
+		"type": "CameraMain",
+		"properties": {},
+		"uid": 18,
+		"sid": 725236753235294,
+		"tags": ""
+	}
+}

@@ -1,0 +1,634 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 39900,
+	"name": "24_escape",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Camera3D",
+			"name": "3D camera",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Dictionary",
+			"name": "Dictionary",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mikal_3DObject",
+			"name": "3D object",
+			"author": "Mikal",
+			"bundled": false,
+			"version": "2.65.1"
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "3D shape",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Car",
+			"name": "Car",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "7pekmmpcw4g",
+	"objectTypes": {
+		"items": [
+			"ground",
+			"wall",
+			"prisonerMain",
+			"prisoner3dobject",
+			"CameraMain",
+			"Keyboard",
+			"bed",
+			"guard",
+			"toilet",
+			"wash",
+			"IntractBehaviorZone",
+			"EventHandler",
+			"board",
+			"camera_cover",
+			"guardbutfake",
+			"FunctionWindow",
+			"FunctionOPT",
+			"FadeSprite",
+			"TouchBehaviorZone",
+			"Strawground",
+			"Object3D",
+			"Suitcase",
+			"Tunnelentrance",
+			"Airvents",
+			"American",
+			"NudePolice",
+			"Prisonerother",
+			"EndingBackGround",
+			"EndTitle",
+			"Anykey",
+			"MenuBackground",
+			"SpriteFont2"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Browser",
+					"Audio",
+					"AJAX",
+					"DialogueCommands",
+					"DialogueData",
+					"DialogueDictionary",
+					"GameVariables",
+					"Touch",
+					"ChoiceSelector",
+					"ContinueIndicator",
+					"door",
+					"DownArrow",
+					"PortraitSprite",
+					"SpriteFont",
+					"UpArrow",
+					"WindowFrame",
+					"FuntionWinodow9"
+				],
+				"subfolders": [],
+				"name": "Dilogue"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"f_cube",
+			"f_cube2",
+			"f_3d"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Level",
+			"Lib",
+			"DilogueSystemUI",
+			"UILib",
+			"End",
+			"Menu",
+			"Fade"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Level",
+			"DialogueEvents",
+			"GlobalVar",
+			"Input",
+			"End",
+			"Menu",
+			"Load"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 219699467257376,
+					"script-info": {
+						"purpose": "main"
+					}
+				},
+				{
+					"name": "importsForEvents.js",
+					"type": "application/javascript",
+					"sid": 360907835265594,
+					"script-info": {
+						"purpose": "imports-for-events"
+					}
+				},
+				{
+					"name": "engine.js",
+					"type": "application/javascript",
+					"sid": 632583478561353,
+					"script-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "level.js",
+							"type": "application/javascript",
+							"sid": 448115524128337,
+							"script-info": {
+								"purpose": "none"
+							}
+						},
+						{
+							"name": "event.js",
+							"type": "application/javascript",
+							"sid": 682723071327705,
+							"script-info": {
+								"purpose": "none"
+							}
+						},
+						{
+							"name": "fade.js",
+							"type": "application/javascript",
+							"sid": 722141445556879,
+							"script-info": {
+								"purpose": "none"
+							}
+						}
+					],
+					"subfolders": [],
+					"name": "game"
+				}
+			]
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "text type.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 918855860773794,
+							"file-info": {
+								"purpose": "none"
+							}
+						},
+						{
+							"name": "updown.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 648219900559269,
+							"file-info": {
+								"purpose": "none"
+							}
+						}
+					],
+					"subfolders": [],
+					"name": "Dialogue"
+				}
+			]
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 996231199313768,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 443656445843023,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 782514285824979,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 773141113912873,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 444735082254203,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 330798466655926,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 239974378047308,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "board.glb",
+					"type": "application/octet-stream",
+					"sid": 822866383129592,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "prisoner.glb",
+					"type": "application/octet-stream",
+					"sid": 552656223121998,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "guard.glb",
+					"type": "application/octet-stream",
+					"sid": 220951565797201,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bed.glb",
+					"type": "application/octet-stream",
+					"sid": 987506982475343,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "door.glb",
+					"type": "application/octet-stream",
+					"sid": 510817934884284,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "wash.glb",
+					"type": "application/octet-stream",
+					"sid": 148328408214761,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "toilet.glb",
+					"type": "application/octet-stream",
+					"sid": 834953682057631,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Suitcase.glb",
+					"type": "application/octet-stream",
+					"sid": 539207327643724,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Tunnelentrance.glb",
+					"type": "application/octet-stream",
+					"sid": 768197706834656,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Strawground.glb",
+					"type": "application/octet-stream",
+					"sid": 906278882992948,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Airvents.glb",
+					"type": "application/octet-stream",
+					"sid": 342518364469547,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "NudePolice.glb",
+					"type": "application/octet-stream",
+					"sid": 986156710667819,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "American.glb",
+					"type": "application/octet-stream",
+					"sid": 920350962589132,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Prisonerother.glb",
+					"type": "application/octet-stream",
+					"sid": 753803071658679,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Prisonguard.glb",
+					"type": "application/octet-stream",
+					"sid": 893296703056789,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "dialogues.json",
+							"type": "application/json",
+							"sid": 624872338405087,
+							"file-info": {
+								"purpose": "none"
+							}
+						}
+					],
+					"subfolders": [],
+					"name": "Dialogue"
+				}
+			]
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"zAxisScale": "regular",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "low",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": true,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 800,
+	"viewportHeight": 600,
+	"firstLayout": "Menu"
+}

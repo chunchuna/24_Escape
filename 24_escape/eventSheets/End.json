@@ -1,0 +1,42 @@
+{
+	"name": "End",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Input"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "EndInit",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 626807126082449
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 798678014222827,
+							"parameters": {
+								"variable": "GameType",
+								"value": "\"End\""
+							}
+						}
+					],
+					"sid": 855979503654048
+				}
+			],
+			"sid": 405698494037643
+		}
+	],
+	"sid": 890030102878890
+}

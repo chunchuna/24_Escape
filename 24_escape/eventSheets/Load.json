@@ -1,0 +1,66 @@
+{
+	"name": "Load",
+	"events": [
+		{
+			"functionName": "LoadGame",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [
+				{
+					"name": "LoadName",
+					"type": "string",
+					"initialValue": "",
+					"comment": "",
+					"sid": 964102934810384
+				}
+			],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 244922516101238,
+					"parameters": {
+						"slot": "LoadName"
+					}
+				}
+			],
+			"sid": 893472485170148
+		},
+		{
+			"functionName": "SaveGame",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [
+				{
+					"name": "SaveName",
+					"type": "string",
+					"initialValue": "",
+					"comment": "",
+					"sid": 951319478094894
+				}
+			],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "save",
+					"objectClass": "System",
+					"sid": 868298452737186,
+					"parameters": {
+						"slot": "SaveName"
+					}
+				}
+			],
+			"sid": 407708410868667
+		}
+	],
+	"sid": 636699555081510
+}
